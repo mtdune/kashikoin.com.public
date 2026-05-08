@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="ステーキング・レンディング・イールドファーミング・リキッドステーキングなど、保有する暗号資産を貸し出して収益を得る「貸コイン」の各手法をわかりやすく解説しています。マイニングとの違いも説明しており、資産運用の選択肢として貸コインを検討している方に役立つ内容です。">
+        <title>ステーキングとレンディング - 貸コインコム</title>
+        <meta property="og:title" content="ステーキングとレンディング - 貸コインコム">
+        <meta property="og:description" content="ステーキング・レンディング・イールドファーミング・リキッドステーキングなど、保有する暗号資産を貸し出して収益を得る「貸コイン」の各手法をわかりやすく解説しています。マイニングとの違いも説明しており、資産運用の選択肢として貸コインを検討している方に役立つ内容です。">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://kashikoin.com/staking-and-lending/">
+        
+        <meta property="og:image" content="/assets/images/pages/staking-and-lending.webp">
+        
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="ステーキングとレンディング - 貸コインコム">
+        <meta name="twitter:description" content="ステーキング・レンディング・イールドファーミング・リキッドステーキングなど、保有する暗号資産を貸し出して収益を得る「貸コイン」の各手法をわかりやすく解説しています。マイニングとの違いも説明しており、資産運用の選択肢として貸コインを検討している方に役立つ内容です。">
+        
+        <meta name="twitter:image" content="/assets/images/pages/staking-and-lending.webp">
+        
+        <link rel="canonical" href="https://kashikoin.com/staking-and-lending/">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="preload" as="style" href="https://kashikoin.com/build/assets/style-B6kWLMTD.css" /><link rel="modulepreload" as="script" href="https://kashikoin.com/build/assets/script-4Leh9qvP.js" /><link rel="modulepreload" as="script" href="https://kashikoin.com/build/assets/scroll-offset-DL-ou87G.js" /><link rel="modulepreload" as="script" href="https://kashikoin.com/build/assets/sidebar-sticky-C5DaJ0mz.js" /><link rel="stylesheet" href="https://kashikoin.com/build/assets/style-B6kWLMTD.css" /><script type="module" src="https://kashikoin.com/build/assets/script-4Leh9qvP.js"></script><script type="module" src="https://kashikoin.com/build/assets/scroll-offset-DL-ou87G.js"></script><script type="module" src="https://kashikoin.com/build/assets/sidebar-sticky-C5DaJ0mz.js"></script>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTM97977');</script>
+<!-- End Google Tag Manager -->
+
+    </head>
+    <body class="bg-background text-foreground font-sans leading-normal">
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTM97977"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+        <header class="sticky top-0 z-50 w-full border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
+	<div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-8">
+		<a class="flex items-center gap-2" href="/">
+			<div class="flex h-9 w-9 items-center justify-center rounded-md bg-primary">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bitcoin h-5 w-5 text-primary-foreground" aria-hidden="true">
+					<path d="M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727"></path>
+				</svg>
+			</div>
+			<span class="text-xl font-bold text-foreground">貸コインコム</span>
+		</a>
+
+		<nav class="hidden items-center gap-6 md:flex">
+			<a class="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground" href="/side-job/">副業のはじめ方</a>
+			<a class="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground" href="/exchange/">取引所を比較</a>
+			<a class="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground" href="/job-level-table/">副業レベル</a>
+			<a class="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground" href="/faq/">よくある質問</a>
+			<a class="ml-2 inline-flex items-center justify-center whitespace-nowrap rounded bg-primary px-3 py-2 text-sm font-medium text-primary-foreground transition-all hover:bg-primary/90" href="/side-job/">はじめる</a>
+		</nav>
+
+		<button
+			id="js-hamburger-btn"
+			class="md:hidden"
+			aria-label="メニューを開く"
+			aria-expanded="false"
+			aria-controls="mobile-menu">
+			
+			<svg class="icon-open h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<path d="M4 5h16"></path>
+				<path d="M4 12h16"></path>
+				<path d="M4 19h16"></path>
+			</svg>
+			
+			<svg class="icon-close hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<path d="M18 6 6 18"></path>
+				<path d="m6 6 12 12"></path>
+			</svg>
+		</button>
+	</div>
+
+	<div id="mobile-menu" class="hidden md:hidden border-t border-border bg-card">
+		<nav class="flex flex-col px-4 py-4 gap-1">
+			<a class="rounded px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/side-job/">副業のはじめ方</a>
+			<a class="rounded px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/exchange/">取引所を比較</a>
+			<a class="rounded px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/job-level-table/">副業レベル</a>
+			<a class="rounded px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/faq/">よくある質問</a>
+			<div class="mt-2 pt-2 border-t border-border">
+				<a class="block rounded bg-primary px-3 py-2.5 text-center text-sm font-medium text-primary-foreground transition-all hover:bg-primary/90" href="/side-job/">はじめる</a>
+			</div>
+		</nav>
+	</div>
+</header>
+        <div class="min-h-screen flex flex-col bg-background">
+	<main class="flex-1">
+		<div class="mx-auto max-w-7xl px-4 py-8 lg:px-8">
+			<div class="flex flex-col gap-8 md:flex-row">
+
+				
+				<div class="w-full md:flex-1 js-sticky-article">
+					<article class="w-full">
+						<nav class="mb-6 flex items-center gap-2 text-sm text-muted-foreground">
+	<a class="transition-colors hover:text-foreground" href="/">貸コインコム</a>
+	<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+		<path d="m9 18 6-6-6-6"></path>
+	</svg>
+	
+	
+	<a class="transition-colors hover:text-foreground" href="/categories/staking-lending/">貸コイン</a>
+	<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+		<path d="m9 18 6-6-6-6"></path>
+	</svg>
+	
+	
+	<span class="truncate text-foreground">ステーキングとレンディング</span>
+</nav>
+
+						<header class="mb-8">
+	
+
+	<h1 class="mb-4 text-2xl font-bold leading-tight text-foreground sm:text-3xl">ステーキングとレンディング</h1>
+
+	
+	<p class="mb-6 text-base text-muted-foreground leading-relaxed">ステーキング・レンディング・イールドファーミング・リキッドステーキングなど、保有する暗号資産を貸し出して収益を得る「貸コイン」の各手法をわかりやすく解説しています。マイニングとの違いも説明しており、資産運用の選択肢として貸コインを検討している方に役立つ内容です。<br>この記事にはプロモーションが含まれています。</p>
+	
+
+	<div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground border-t border-b border-border py-3">
+		
+		<!--
+		<span class="flex items-center gap-1.5">
+			<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+				<circle cx="12" cy="7" r="4"></circle>
+			</svg>
+			貸コインコム
+		</span>
+		-->
+		
+
+		
+		<span class="flex items-center gap-1.5">
+			<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<path d="M8 2v4"></path>
+				<path d="M16 2v4"></path>
+				<rect width="18" height="18" x="3" y="4" rx="2"></rect>
+				<path d="M3 10h18"></path>
+			</svg>
+			2026年4月22日
+		</span>
+		
+
+		
+		<span class="flex items-center gap-1.5">
+			<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"></path>
+				<path d="M21 3v5h-5"></path>
+			</svg>
+			2026年4月28日
+		</span>
+		
+
+		
+
+		<div class="ml-auto flex items-center gap-2">
+			<a href="https://twitter.com/intent/tweet?url=https://kashikoin.com/staking-and-lending/&text=貸コインコム ステーキングとレンディング"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="flex items-center gap-1.5 rounded px-3 py-1.5 text-xs text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+			aria-label="Xでシェア">
+				<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+					<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+				</svg>
+			</a>
+			<a href="https://line.me/R/msg/text/?%E8%B2%B8%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%B3%E3%83%A0%0A%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%81%A8%E3%83%AC%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%0Ahttps://kashikoin.com/staking-and-lending/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="flex items-center gap-1.5 rounded bg-[#06c755] px-3 py-1.5 text-xs text-white transition-colors hover:opacity-80"
+			aria-label="LINEでシェア">
+				<span class="font-bold">LINE</span>
+			</a>
+		</div>
+	</div>
+</header>
+
+
+						
+						
+						<div class="relative mb-8 overflow-hidden rounded-lg">
+							<img src="/assets/images/pages/staking-and-lending.webp" alt="ステーキングとレンディング" class="w-full object-cover" loading="lazy">
+						</div>
+						
+
+						
+						<div class="prose prose-neutral max-w-none
+							prose-headings:font-bold prose-headings:text-foreground
+							prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-xl
+							prose-h2:border-l-4 prose-h2:border-accent prose-h2:pl-4
+							prose-h3:mt-8 prose-h3:mb-3 prose-h3:text-lg
+							prose-p:text-muted-foreground prose-p:leading-relaxed
+							prose-a:text-accent prose-a:no-underline
+							prose-strong:text-foreground prose-strong:font-semibold
+							prose-ul:text-muted-foreground prose-ol:text-muted-foreground
+							prose-li:marker:text-accent
+							prose-blockquote:border-l-accent prose-blockquote:bg-secondary/50
+							prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:rounded-r-lg
+							prose-code:bg-secondary prose-code:px-1.5 prose-code:py-0.5
+							prose-code:rounded prose-code:text-foreground
+							prose-code:before:content-none prose-code:after:content-none
+							prose-img:rounded-lg">
+							<nav class="mb-8 rounded-lg border border-border bg-secondary/50 p-6"><p class="mb-4 flex items-center gap-2 text-sm font-semibold text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-accent" aria-hidden="true"><line x1="8" x2="21" y1="6" y2="6"/><line x1="8" x2="21" y1="12" y2="12"/><line x1="8" x2="21" y1="18" y2="18"/><line x1="3" x2="3.01" y1="6" y2="6"/><line x1="3" x2="3.01" y1="12" y2="12"/><line x1="3" x2="3.01" y1="18" y2="18"/></svg>目次</p><ol id="js-toc-list" class="space-y-2 text-sm"><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">1.</span><a href="#link-de88637b" class="text-muted-foreground transition-colors hover:text-accent">貸コインとは？</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">2.</span><a href="#link-e25bca8e" class="text-muted-foreground transition-colors hover:text-accent">貸コイン 1. ステーキング</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">3.</span><a href="#link-0e0543e2" class="text-muted-foreground transition-colors hover:text-accent">貸コイン 2. レンディング</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">4.</span><a href="#link-2e4d9363" class="text-muted-foreground transition-colors hover:text-accent">貸コイン 3. イールド・ファーミング</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">5.</span><a href="#link-551a7d24" class="text-muted-foreground transition-colors hover:text-accent">貸コイン 4. リキッドステーキング</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">6.</span><a href="#link-6cc59145" class="text-muted-foreground transition-colors hover:text-accent">貸コイン 5. リステーキング</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">7.</span><a href="#link-87542742" class="text-muted-foreground transition-colors hover:text-accent">貸コイン 6. P2Pレンディング（個人間貸付）</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">8.</span><a href="#link-02d428af" class="text-muted-foreground transition-colors hover:text-accent">マイニング</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">9.</span><a href="#link-37934ca5" class="text-muted-foreground transition-colors hover:text-accent">貸コインとマイニングの違い</a></li><li class="flex items-start gap-2"><span class="shrink-0 text-accent font-medium">10.</span><a href="#link-505cd388" class="text-muted-foreground transition-colors hover:text-accent">貸コインとマイニングの違い（利用者の違い）</a></li></ol></nav><h2 id="link-de88637b">貸コインとは？</h2>
+<p>貸コインとは、ステーキングやレンディング等、保有する暗号資産を第三者やネットワークに貸し出すことによって、利息や報酬といった形で収益を得る一連の運用手法を総称する言葉です。これには、ブロックチェーン技術そのものに資産を預けて報酬を得る仕組みから、個人間で暗号資産を貸し借りする形のものまで、さまざまなタイプの運用方法が含まれます。目的は共通しており、ただ保有しているだけの資産を「働かせる」ことで、収益を生み出すことにあります。従来の金融における「預金」や「債券」といった考え方に近い一方で、ブロックチェーン技術やスマートコントラクトを活用した独自の仕組みも多く存在し、Web3時代の新たな資産運用スタイルとして注目されています。</p>
+<ol>
+<li><a href="#link-staking">ステーキング</a></li>
+<li><a href="#link-lending">レンディング</a></li>
+<li><a href="#link-yield-farming">イールド・ファーミング</a></li>
+<li><a href="#link-liquid-staking">リキッド・ステーキング</a></li>
+<li><a href="#link-restaking">リステーキング</a></li>
+<li><a href="#link-p2p-lending">P2P レンディング</a></li>
+</ol>
+<blockquote>
+<p>そもそも、ビットコインとは何なのか。<br />
+一言でいうと、あなたの手もとにあるコンピュータやスマートフォン、そこから広がるコンピュータ・ネットワークそのものがビットコインの価値であり、価値の裏付けです。人類のコンピュータへの信頼性＝ビットコインへの信頼性とも考えられます。なぜならば、すでに稼働しているビットコインのノード（端末）だけでなく、すべてのコンピュータやスマートフォンは、ビットコインのノード（端末）として利用可能だからです。</p>
+</blockquote>
+<h2 id="link-e25bca8e">貸コイン 1. ステーキング</h2>
+<p>ステーキングとは、主にProof of Stake（PoS）と呼ばれる合意形成アルゴリズムを採用したブロックチェーンにおいて、自分の暗号資産を一定期間ネットワークに預けることで、ブロックの生成や取引の承認に貢献し、その対価として報酬を得る仕組みです。ステーキングは、そのネットワークの安全性と信頼性を高めるために重要な役割を果たしており、報酬は通常、その通貨自体で支払われます。例えば、Ethereumでは、ETHをバリデーターとして預け入れることで、一定の年利を得ることができます。ただし、預けた資産は一定期間ロックされるため、その間に価格が変動した場合に柔軟な対応ができないリスクもあります。また、ネットワークの運用に失敗した場合に、預けた資産の一部が没収される「スラッシング」と呼ばれるペナルティも存在します。</p>
+<blockquote>
+<p>ここでのステーキングは、基本的に暗号資産取引所でのステーキングを想定していますが、自宅でステーキングすることも可能です。ただし、ネットワークの運用ミスによるペナルティには注意が必要です。（暗号資産取引所のステーキングの場合は、運用ミスは基本的に考慮不要です）</p>
+</blockquote>
+<h2 id="link-0e0543e2">貸コイン 2. レンディング</h2>
+<p>レンディングとは、保有する暗号資産を他者に貸し出し、利息という形で収益を得る方法です。この仕組みは、従来の金融での融資や債券投資に似ており、貸し手と借り手の関係が基本となります。レンディングには、大きく分けて中央集権型（CeFi）と分散型（DeFi）の2つのスタイルがあります。CeFiレンディングは、暗号資産取引所や専門のレンディング業者が仲介し、利用者はそのプラットフォームに資産を預けることで利息を得る仕組みです。操作は簡単で利回りも安定していることが多いですが、プラットフォーム自体の破綻やハッキングといった信用リスクが付きまといます。一方、DeFiレンディングは、スマートコントラクトを用いて、中央の管理者を介さずに資産の貸し借りを行う仕組みです。より透明性が高く、自分で管理する自由度もある反面、技術的なリスクや複雑な操作が求められることがあります。</p>
+<h2 id="link-2e4d9363">貸コイン 3. イールド・ファーミング</h2>
+<p>イールドファーミングとは、DeFi（分散型金融）のプロトコルに流動性（イールド）を提供することで、利息や追加の報酬トークンを得る仕組みを指します。たとえば、分散型取引所であるUniswapやCurveといったプラットフォームにトークンをペアで預けることで、その取引所におけるスワップ手数料の一部や、新しく発行されるガバナンストークンを報酬として受け取ることができます。この方法は、一般的に高い利回りが期待できるため、多くの投資家から人気を集めていますが、同時にリスクも高いことで知られています。特に、預けたトークンの価格が変動した場合に起こる「インパーマネントロス」は、得られる報酬以上に資産価値が減少することもあるため、理解が不可欠です。また、プロトコル自体の不具合やハッキングによる損失も想定する必要があります。</p>
+<h2 id="link-551a7d24">貸コイン 4. リキッドステーキング</h2>
+<p>リキッドステーキングは、通常のステーキングとは異なり、ステーキングした資産に対して、それを裏付けとする「流動性のある代替トークン」が発行される仕組みです。この代替トークンを使うことで、ステーキングによる報酬を得ながらも、資産を他のDeFiプロトコルで再活用することができます。たとえば、ETHをステーキングしたユーザーはstETHというトークンを受け取り、それを別のプロトコルでレンディングしたり、トレードに用いることができます。これにより、資金効率が高まり、複数の収益源を同時に得ることが可能になります。一方で、代替トークンと元の資産との価値が乖離するリスクや、トークン発行プロトコル自体に問題が生じた場合の資産損失など、注意すべき点もあります。</p>
+<h2 id="link-6cc59145">貸コイン 5. リステーキング</h2>
+<p>リステーキングとは、すでにステーキングしている資産や、その報酬として得られた資産を、さらに別のネットワークやプロトコルに再活用し、追加の収益を得る仕組みです。この手法は、資産を一つの目的に使い切るのではなく、「二次活用」することによって、収益性を高めようとする考え方に基づいています。たとえば、Ethereumのステーキングで得られたstETHを、EigenLayerのような再ステーキングプラットフォームに預けることで、そのセキュリティを担保しつつ、追加の報酬を得るといった運用が可能になります。この仕組みは、ネットワークセキュリティの分散化を進めつつ、保有者にも多重の利益をもたらすことができると期待されています。ただし、リステーキングはリスクも「重層的」になりやすく、預け先の安全性やプロトコルの設計について、深い理解と慎重な選択が必要です。</p>
+<h2 id="link-87542742">貸コイン 6. P2Pレンディング（個人間貸付）</h2>
+<p>P2Pレンディング、すなわち個人間の暗号資産貸し借りは、貸し手と借り手が直接または仲介プラットフォームを介して契約を結ぶ形で行われます。この方法は、利回りや契約条件を柔軟に設定できるというメリットがありますが、同時に借り手の信用リスクや、担保が不足した際の回収困難といった問題を抱えています。多くのP2Pレンディングプラットフォームでは、借り手が一定の担保を差し出すことが求められますが、暗号資産の価格が急変した場合には担保が不十分になる可能性もあります。また、スマートコントラクトを活用して自動清算や担保管理を行う仕組みもありますが、技術的なバグや予期せぬ挙動による損失のリスクも否定できません。それでも、自分で条件を選びながら、個別のニーズに応じた貸出ができる点では、最も自由度の高い「貸コイン」手法と言えるかもしれません。</p>
+<h2 id="link-02d428af">マイニング</h2>
+<p>貸コインではありませんが、類似の手法として、マイニングがあります。</p>
+<p>マイニングとは、暗号資産（仮想通貨）のネットワークを維持し、取引データの正当性を確認し、新しいブロックをブロックチェーン上に追加するために行われる膨大な計算作業のことを指します。この作業を担う人や組織は「マイナー（採掘者）」と呼ばれ、その見返りとして暗号資産で報酬を受け取ります。</p>
+<p>もっと簡単に言えば、マイニングとは「コンピュータの計算力を使って、取引を安全に記録しながら、報酬を得る仕組み」です。</p>
+<p>たとえば、ビットコインのような通貨では、誰かが取引（送金）を行うと、その情報は一時的に保留されます。そして世界中のマイナーたちがその取引を含む「ブロック」を正確に作るために、計算問題を解く競争に参加します。この競争に一番早く勝ったマイナーが、ブロックをネットワークに追加し、報酬として新しく発行されたビットコインや取引手数料を受け取るのです。この一連の流れが「マイニング」と呼ばれるものです。</p>
+<h2 id="link-37934ca5">貸コインとマイニングの違い</h2>
+<p>ここで、マイニングと「貸コイン（ステーキング、レンディングなどの資産運用手法）」の違いを明確にしておきましょう。</p>
+<p>資産を作るのがマイニング、資産を貸すのが貸コインです。</p>
+<p>マイニングは、まだ誰のものでもない暗号資産を、計算作業の対価として自分のものにする仕組みです。すなわち「ゼロから資産を生み出す」行為です。自分の手でブロックを生成し、その報酬として新しくコインを得る、いわば「創造的労働」です。</p>
+<p>このため、マイニングに必要なのは、計算力（コンピューター）と電力であり、通貨そのものを事前に持っている必要はありません。初期投資としてマシンや電気代の負担が大きいこと、また専門的な知識やメンテナンスが必要なことが特徴です。</p>
+<p>これに対して貸コイン（ステーキング・レンディング）とは、すでに自分が保有している暗号資産を第三者またはシステムに預けて収益を得る行為です。つまり、「今ある資産を活用して増やす」ものであり、新たな通貨を生み出すわけではありません。</p>
+<p>ステーキングでは、PoS（Proof of Stake）という仕組みを使ってブロックチェーンに貢献し、ネットワーク運営の報酬を受け取ります。一方、レンディングでは、他のユーザーに自分の資産を貸し出し、利息を得ます。どちらも「お金を働かせる」という意味で、投資や資産運用に近いイメージです。</p>
+<h2 id="link-505cd388">貸コインとマイニングの違い（利用者の違い）</h2>
+<p>マイニングはどちらかというと、「インフラ提供者」や「技術者」「起業家」向けの運用方法です。大量の電気、機材、人員を投入して運用する事業であり、一般ユーザーが趣味で行うにはハードルが高くなっています。</p>
+<p>一方、貸コインは、暗号資産をすでに保有している個人投資家や長期保有者向けの運用手法です。専門技術がなくても始めやすく、基本的にウォレットや取引所のアカウントさえあれば参加できます。収益はやや控えめですが、比較的手間が少ないのが特徴です。</p>
+<blockquote>
+<p>マイニングは電気料金（原子力発電所がある地域が有利）、冷涼な気候（コンピュータの冷却）、土地代で採掘効率（＝金利）が決まるため、日本ではかなり不利です。</p>
+</blockquote>
+
+						</div>
+
+						
+<div class="mt-10 border-t border-border pt-6">
+    <div class="flex flex-wrap items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0 text-muted-foreground" aria-hidden="true">
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"></path>
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor"></circle>
+        </svg>
+        
+        <a class="rounded-full bg-secondary px-3 py-1 text-xs text-muted-foreground transition-colors hover:bg-secondary/80 hover:text-foreground" href="/tags/staking/">ステーキング</a>
+        
+        <a class="rounded-full bg-secondary px-3 py-1 text-xs text-muted-foreground transition-colors hover:bg-secondary/80 hover:text-foreground" href="/tags/lending/">レンディング</a>
+        
+        <a class="rounded-full bg-secondary px-3 py-1 text-xs text-muted-foreground transition-colors hover:bg-secondary/80 hover:text-foreground" href="/tags/crypto/">暗号資産</a>
+        
+    </div>
+</div>
+
+						<div class="mt-10 rounded-lg border border-border bg-secondary/50 p-6">
+	<div class="flex items-start gap-4">
+		<div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full overflow-hidden">
+			<a href="/about/"><img src="/assets/images/profile/avatar.webp" alt="山田岡" class="w-full h-full object-cover"></a>
+		</div>
+		<div class="flex-1">
+			<p class="mb-1 text-xs text-muted-foreground">この記事を書いた人</p>
+			<p class="mb-2 font-semibold text-foreground"><a class="hover:underline" href="/about/">山田岡</a></p>
+			<p class="text-sm text-muted-foreground leading-relaxed">貸コイン副業（ビットコイン・レンディング）で毎月の収入を増やす方法を実体験をもとに発信しています。会社員をしながら副業として取り組んでいます。<br>詳しくは <a class="font-medium text-accent transition-colors hover:underline" href="/about/">こちら</a></p>
+		</div>
+	</div>
+</div>
+
+						<div class="mt-10 border-t border-border pt-8">
+	<h2 class="mb-6 text-lg font-bold text-foreground">PR</h2>
+	<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+
+		
+		<div class="js-ad-card border border-border overflow-hidden relative bg-secondary/50">
+			
+			<div class="js-ad-bg absolute inset-0"
+				 style="background-image: url('https://picsum.photos/300/250/');
+						background-size: cover;
+						background-position: center;
+						filter: blur(12px);
+						transform: scale(1.2);">
+			</div>
+			
+			<div class="js-ad-banner relative flex items-center justify-center">
+				<a href="https://h.accesstrade.net/sp/cc?rk=0100pr4x00os2t" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="https://h.accesstrade.net/sp/rr?rk=0100pr4x00os2t" alt="PBRレンディング" width="300" height="250"></a>
+			</div>
+		</div>
+
+		
+		<div class="js-ad-card border border-border overflow-hidden relative bg-secondary/50">
+			
+			<div class="js-ad-bg absolute inset-0"
+				 style="background-image: url('https://picsum.photos/300/250/');
+						background-size: cover;
+						background-position: center;
+						filter: blur(12px);
+						transform: scale(1.2);">
+			</div>
+			
+			<div class="js-ad-banner relative flex items-center justify-center">
+				<a href="https://px.a8.net/svt/ejp?a8mat=4B3GYK+3X3R5E+5RNA+5ZEMP" rel="nofollow">
+				<img class="" width="300" height="250" alt="" src="https://www24.a8.net/svt/bgt?aid=260502428237&wid=001&eno=01&mid=s00000026911001005000&mc=1">
+				</a>
+				<img width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4B3GYK+3X3R5E+5RNA+5ZEMP" alt="">
+			</div>
+		</div>
+
+	</div>
+</div>
+
+						
+<div class="mt-10 border-t border-border pt-8">
+	<h2 class="mb-6 text-lg font-bold text-foreground">関連記事</h2>
+	<div class="grid gap-4 sm:grid-cols-2">
+		
+		
+		<a class="group rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/50 hover:shadow-md" href="/side-job//">
+			
+			<div class="mb-3 overflow-hidden rounded-md">
+				<img src="/assets/images/pages/side-job.webp" alt="貸コイン副業" class="w-full object-cover" loading="lazy">
+			</div>
+			
+			<h3 class="text-sm font-semibold text-foreground transition-colors group-hover:text-accent leading-snug">貸コイン副業</h3>
+			
+			<p class="mt-2 text-xs text-muted-foreground line-clamp-2">給与が上がりにくい時代に会社員が副業を持つ必要性と、暗号資産の積立・ステーキング・レンディングを組み合わせた「貸コイン副業」の具体的な戦略を解説しています。少額からはじめてスケールアップできる方法や、青色申告の可能性についても詳しく紹介しています。</p>
+			
+		</a>
+		
+		
+		
+		<a class="group rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/50 hover:shadow-md" href="/job-level-1//">
+			
+			<div class="mb-3 overflow-hidden rounded-md">
+				<img src="/assets/images/pages/job-level-1.webp" alt="副業レベル 1" class="w-full object-cover" loading="lazy">
+			</div>
+			
+			<h3 class="text-sm font-semibold text-foreground transition-colors group-hover:text-accent leading-snug">副業レベル 1</h3>
+			
+			<p class="mt-2 text-xs text-muted-foreground line-clamp-2">貸コイン副業レベル1では、暗号資産取引所への口座開設から日本円の入金、ビットコインの購入、レンディング会社への送金まで、貸コイン副業をはじめるための具体的な手順をステップごとに解説しています。副業をゼロからスタートする方向けの入門ガイドです。</p>
+			
+		</a>
+		
+		
+		
+		<a class="group rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/50 hover:shadow-md" href="/job-level-table//">
+			
+			<div class="mb-3 overflow-hidden rounded-md">
+				<img src="/assets/images/pages/job-level-table.webp" alt="副業レベル一覧表" class="w-full object-cover" loading="lazy">
+			</div>
+			
+			<h3 class="text-sm font-semibold text-foreground transition-colors group-hover:text-accent leading-snug">副業レベル一覧表</h3>
+			
+			<p class="mt-2 text-xs text-muted-foreground line-clamp-2">貸コイン副業の5段階のレベルと目標を一覧表で確認できるページです。暗号資産の保有額や毎月の収入目安、確定申告の要否、失業保険の受給可否など、副業の進捗に合わせて確認したい情報をわかりやすく整理しています。</p>
+			
+		</a>
+		
+		
+		
+		<a class="group rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/50 hover:shadow-md" href="/crypto-bitcoin//">
+			
+			<div class="mb-3 overflow-hidden rounded-md">
+				<img src="/assets/images/pages/crypto-bitcoin.webp" alt="ビットコインとは？" class="w-full object-cover" loading="lazy">
+			</div>
+			
+			<h3 class="text-sm font-semibold text-foreground transition-colors group-hover:text-accent leading-snug">ビットコインとは？</h3>
+			
+			<p class="mt-2 text-xs text-muted-foreground line-clamp-2">ビットコインとは何かをわかりやすく説明しています。暗号資産の代表格であるビットコインの仕組みや特徴、なぜ価値があるのか、そして副業や資産運用としてどのように活用できるかについて、初心者にもわかりやすく解説しています。</p>
+			
+		</a>
+		
+		
+	</div>
+</div>
+
+
+					</article>
+				</div>
+
+				
+				<aside class="w-full md:w-[300px] md:shrink-0 md:self-start js-sticky-sidebar">
+					<div class="space-y-6">
+
+	
+	<div class="rounded-lg bg-primary p-6 text-center text-primary-foreground">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto mb-3 h-10 w-10" aria-hidden="true">
+			<path d="M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727"></path>
+		</svg>
+		<p class="mb-1 font-bold">今日から毎月 +5,000 円を</p>
+		<p class="mb-4 text-sm text-primary-foreground/80">貸しビットコインで稼ぐ</p>
+		<a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded bg-primary-foreground px-5 py-2.5 text-sm font-medium text-primary transition-all hover:bg-primary-foreground/90" href="/side-job/">
+			はじめる
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<path d="M5 12h14"></path>
+				<path d="m12 5 7 7-7 7"></path>
+			</svg>
+		</a>
+	</div>
+
+	
+	<div class="rounded-lg border border-border bg-card p-6">
+		<h3 class="mb-4 flex items-center gap-2 font-semibold text-foreground">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="relative top-[1px] text-accent" aria-hidden="true">
+				<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+			</svg>
+			<span>副業レベルと目標</span>
+		</h3>
+		<div class="space-y-3">
+			<a class="flex items-center gap-3 rounded-lg border border-border p-3 transition-all hover:border-accent/50 hover:shadow-sm" href="/job-level-1/">
+				<div class="flex flex-col items-center justify-center rounded-md bg-accent w-12 h-12 shrink-0">
+					<span class="text-[10px] font-medium text-white leading-none mb-0.5">レベル</span>
+					<span class="text-xl font-bold text-white leading-none">1</span>
+				</div>
+				<div>
+					<p class="text-xs text-muted-foreground">毎月 +5,000円</p>
+					<p class="text-sm font-medium text-foreground">最初の一歩</p>
+				</div>
+			</a>
+			<a class="flex items-center gap-3 rounded-lg border border-border p-3 transition-all hover:border-accent/50 hover:shadow-sm" href="/job-level-2/">
+				<div class="flex flex-col items-center justify-center rounded-md bg-accent w-12 h-12 shrink-0">
+					<span class="text-[10px] font-medium text-white leading-none mb-0.5">レベル</span>
+					<span class="text-xl font-bold text-white leading-none">2</span>
+				</div>
+				<div>
+					<p class="text-xs text-muted-foreground">毎月 +10,000円</p>
+					<p class="text-sm font-medium text-foreground">本格化</p>
+				</div>
+			</a>
+			<a class="flex items-center gap-3 rounded-lg border border-border p-3 transition-all hover:border-accent/50 hover:shadow-sm" href="/job-level-3/">
+				<div class="flex flex-col items-center justify-center rounded-md bg-accent w-12 h-12 shrink-0">
+					<span class="text-[10px] font-medium text-white leading-none mb-0.5">レベル</span>
+					<span class="text-xl font-bold text-white leading-none">3</span>
+				</div>
+				<div>
+					<p class="text-xs text-muted-foreground">毎月 +20,000円</p>
+					<p class="text-sm font-medium text-foreground">確定申告（白色）</p>
+				</div>
+			</a>
+			<a class="flex items-center gap-3 rounded-lg border border-border p-3 transition-all hover:border-accent/50 hover:shadow-sm" href="/job-level-4/">
+				<div class="flex flex-col items-center justify-center rounded-md bg-accent w-12 h-12 shrink-0">
+					<span class="text-[10px] font-medium text-white leading-none mb-0.5">レベル</span>
+					<span class="text-xl font-bold text-white leading-none">4</span>
+				</div>
+				<div>
+					<p class="text-xs text-muted-foreground">毎月 +10万円</p>
+					<p class="text-sm font-medium text-foreground">確定申告（青色）</p>
+				</div>
+			</a>
+			<a class="flex items-center gap-3 rounded-lg border border-border p-3 transition-all hover:border-accent/50 hover:shadow-sm" href="/job-level-5/">
+				<div class="flex flex-col items-center justify-center rounded-md bg-accent w-12 h-12 shrink-0">
+					<span class="text-[10px] font-medium text-white leading-none mb-0.5">レベル</span>
+					<span class="text-xl font-bold text-white leading-none">5</span>
+				</div>
+				<div>
+					<p class="text-xs text-muted-foreground">毎月 +30万円</p>
+					<p class="text-sm font-medium text-foreground">マイクロ法人設立</p>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	
+	<div class="rounded-lg border border-border bg-card p-6">
+		<h3 class="mb-3 flex items-center gap-2 font-semibold text-foreground">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="relative top-[1px] text-accent" aria-hidden="true">
+				<path d="M8 2v4"></path>
+				<path d="M16 2v4"></path>
+				<rect width="18" height="18" x="3" y="4" rx="2"></rect>
+				<path d="M3 10h18"></path>
+			</svg>
+			<span>年間予定表</span>
+		</h3>
+		<p class="mb-3 text-sm text-muted-foreground leading-relaxed">貸コイン副業の1年間のスケジュール。確定申告の時期や積立タイミングを把握しましょう。</p>
+		<a class="text-sm font-medium text-accent transition-colors hover:underline" href="/yearly-schedule/">詳しく見る</a>
+	</div>
+
+	
+	<div class="rounded-lg border border-border bg-card p-6">
+		<h3 class="mb-4 flex items-center gap-2 font-semibold text-foreground">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="relative top-[1px] text-accent" aria-hidden="true">
+				<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+			</svg>
+			<span>人気の記事</span>
+		</h3>
+		<ol class="space-y-3">
+			<li class="flex items-start gap-3">
+				<span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
+					<span class="inline-block h-5 w-5 rounded-full bg-secondary text-xs font-bold text-secondary-foreground text-center leading-[18px]">1</span>
+				</span>
+				<a class="text-sm text-muted-foreground transition-colors hover:text-foreground" href="/side-job/">貸コイン副業のはじめ方ガイド</a>
+			</li>
+			<li class="flex items-start gap-3">
+				<span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
+					<span class="inline-block h-5 w-5 rounded-full bg-secondary text-xs font-bold text-secondary-foreground text-center leading-[18px]">2</span>
+				</span>
+				<a class="text-sm text-muted-foreground transition-colors hover:text-foreground" href="/exchange/">暗号資産取引所の選び方</a>
+			</li>
+			<li class="flex items-start gap-3">
+				<span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
+					<span class="inline-block h-5 w-5 rounded-full bg-secondary text-xs font-bold text-secondary-foreground text-center leading-[18px]">3</span>
+				</span>
+				<a class="text-sm text-muted-foreground transition-colors hover:text-foreground" href="/staking-and-lending/">ステーキングとレンディングの違い</a>
+			</li>
+			<li class="flex items-start gap-3">
+				<span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
+					<span class="inline-block h-5 w-5 rounded-full bg-secondary text-xs font-bold text-secondary-foreground text-center leading-[18px]">4</span>
+				</span>
+				<a class="text-sm text-muted-foreground transition-colors hover:text-foreground" href="/tax-return/">確定申告の基礎知識</a>
+			</li>
+			<li class="flex items-start gap-3">
+				<span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
+					<span class="inline-block h-5 w-5 rounded-full bg-secondary text-xs font-bold text-secondary-foreground text-center leading-[18px]">5</span>
+				</span>
+				<a class="text-sm text-muted-foreground transition-colors hover:text-foreground" href="/job-level-1/">副業レベル1 毎月+5,000円の達成方法</a>
+			</li>
+		</ol>
+	</div>
+
+	
+	<div class="rounded-lg border border-border bg-card p-6">
+		<h3 class="mb-4 flex items-center gap-2 font-semibold text-foreground">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="relative top-[1px] text-accent" aria-hidden="true">
+				<path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/>
+			</svg>
+			<span>カテゴリ</span>
+		</h3>
+
+		<ul class="space-y-2">
+			
+			<li>
+				<a class="flex items-center justify-between rounded px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/categories/news//">
+					<span>ニュース</span>
+					<span class="rounded-full bg-secondary px-2 py-0.5 text-xs">0</span>
+				</a>
+			</li>
+			
+			<li>
+				<a class="flex items-center justify-between rounded px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/categories/crypto//">
+					<span>暗号資産</span>
+					<span class="rounded-full bg-secondary px-2 py-0.5 text-xs">1</span>
+				</a>
+			</li>
+			
+			<li>
+				<a class="flex items-center justify-between rounded px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/categories/tax//">
+					<span>確定申告・税金</span>
+					<span class="rounded-full bg-secondary px-2 py-0.5 text-xs">3</span>
+				</a>
+			</li>
+			
+			<li>
+				<a class="flex items-center justify-between rounded px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/categories/exchange//">
+					<span>取引所</span>
+					<span class="rounded-full bg-secondary px-2 py-0.5 text-xs">1</span>
+				</a>
+			</li>
+			
+			<li>
+				<a class="flex items-center justify-between rounded px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/categories/staking-lending//">
+					<span>貸コイン</span>
+					<span class="rounded-full bg-secondary px-2 py-0.5 text-xs">3</span>
+				</a>
+			</li>
+			
+			<li>
+				<a class="flex items-center justify-between rounded px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/categories/side-job//">
+					<span>副業</span>
+					<span class="rounded-full bg-secondary px-2 py-0.5 text-xs">7</span>
+				</a>
+			</li>
+			
+			<li>
+				<a class="flex items-center justify-between rounded px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground" href="/categories/books//">
+					<span>本</span>
+					<span class="rounded-full bg-secondary px-2 py-0.5 text-xs">0</span>
+				</a>
+			</li>
+			
+		</ul>
+	</div>
+
+	
+	<div>
+		<p class="mb-3 text-xs text-muted-foreground">PR</p>
+		<div>
+			<a href="https://h.accesstrade.net/sp/cc?rk=0100pr4x00os2t" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="https://h.accesstrade.net/sp/rr?rk=0100pr4x00os2t" alt="PBRレンディング" width="300" height="250"></a>
+		</div>
+	</div>
+
+	<div>
+		<p class="mb-3 text-xs text-muted-foreground">PR</p>
+		<div>
+			<a href="https://px.a8.net/svt/ejp?a8mat=4B3GYK+3X3R5E+5RNA+5ZEMP" rel="nofollow">
+			<img class="w-full aspect-[300/250] object-cover" width="300" height="250" alt="" src="https://www24.a8.net/svt/bgt?aid=260502428237&wid=001&eno=01&mid=s00000026911001005000&mc=1">
+			</a>
+			<img width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4B3GYK+3X3R5E+5RNA+5ZEMP" alt="">
+		</div>
+	</div>
+
+	
+	<div class="rounded-lg border border-border bg-card p-6">
+		<h3 class="mb-3 flex items-center gap-2 font-semibold text-foreground">
+		<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="relative top-[1px] text-accent" aria-hidden="true">
+			<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+			<circle cx="12" cy="7" r="4"></circle>
+		</svg>
+		<span>貸コインコムとは？</span>
+		</h3>
+		<div class="mb-4 mt-4 flex justify-center">
+			<img src="/assets/images/profile/avatar.webp"
+				 alt="山田岡"
+				 class="w-24 h-24 rounded-full object-cover">
+		</div>
+		<p class="mb-3 text-sm text-muted-foreground leading-relaxed">アラフィフ会社員、<span class="font-bold">山田岡</span>による副業投資ブログ。会社の許可を得て副業で<span class="font-bold">暗号資産投資</span>を実践しています。</p>
+		<p class="mb-3 text-sm text-muted-foreground leading-relaxed"><span class="font-bold">暗号資産投資</span> × <span class="font-bold">副業</span> × <span class="font-bold">青色申告(事業所得)</span>に継続して取り組み、<span class="font-bold">税理士</span>へ確定申告を依頼。<span class="font-bold">金融資産 1.2 億円</span>の実体験をもとに <span class="font-bold">5 段階の副業レベル</span>でわかりやすく解説しています。</p>
+		<p class="mb-3 text-sm text-muted-foreground leading-relaxed"><a class="text-sm font-medium text-accent transition-colors hover:underline" href="/about/">詳しく見る</a></p>
+		<div class="mb-1 text-sm text-muted-foreground leading-relaxed"><a class="inline-block" href="https://investment.blogmura.com/ranking/in?p_cid=11214602" target="_blank"><img src="https://b.blogmura.com/investment/88_31.gif" width="88" height="31" alt="にほんブログ村 投資ブログへ" /></a></div>
+		<div class="mb-1 text-sm text-muted-foreground leading-relaxed"><a class="inline-block" href="https://investment.blogmura.com/bitcoin_toushi/ranking/in?p_cid=11214602" target="_blank"><img src="https://b.blogmura.com/investment/bitcoin_toushi/88_31.gif" width="88" height="31" alt="にほんブログ村 投資ブログ ビットコイン投資へ" /></a></div>
+		<div class="mb-1 text-sm text-muted-foreground leading-relaxed"><a class="inline-block" href="https://investment.blogmura.com/bitcoin/ranking/in?p_cid=11214602" target="_blank"><img src="https://b.blogmura.com/investment/bitcoin/88_31.gif" width="88" height="31" alt="にほんブログ村 投資ブログ ビットコインへ" /></a></div>
+	</div>
+
+	
+	<div id="js-toc-sidebar" class="hidden rounded-lg border border-border bg-card p-6">
+		<h3 class="mb-3 flex items-center gap-2 font-semibold text-foreground">
+		<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="relative top-[1px] text-accent">
+			<path d="M3 5h.01"></path>
+			<path d="M3 12h.01"></path>
+			<path d="M3 19h.01"></path>
+			<path d="M8 5h13"></path>
+			<path d="M8 12h13"></path>
+			<path d="M8 19h13"></path>
+		</svg>
+		<span>目次</span>
+		</h3>
+		<div id="js-toc-container"></div>
+	</div>
+</div>
+
+
+				</aside>
+
+			</div>
+		</div>
+	</main>
+</div>
+
+        <footer class="border-t border-border bg-card">
+	<div class="mx-auto max-w-7xl px-4 py-12 lg:px-8 lg:py-16">
+		<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+			<div class="lg:col-span-1">
+				<a class="mb-4 flex items-center gap-2" href="/">
+					<div class="flex h-9 w-9 items-center justify-center rounded-md bg-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bitcoin h-5 w-5 text-primary-foreground" aria-hidden="true">
+							<path d="M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727"></path>
+						</svg>
+					</div>
+					<span class="text-lg font-bold text-foreground">貸コインコム</span>
+				</a>
+				<p class="text-sm text-muted-foreground">毎月5000円からはじめるビットコイン副業の情報サイト</p>
+			</div>
+
+			<div>
+				<h4 class="mb-4 font-semibold text-foreground">このサイトの概要</h4>
+				<ul class="space-y-2">
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/about/">運営者情報</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/contact/">お問い合わせ</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/faq/">よくある質問</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/terms/">利用規約</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/privacy-policy/">プライバシーポリシー</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/disclaimer/">免責事項</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h4 class="mb-4 font-semibold text-foreground">主な記事・カテゴリ</h4>
+				<ul class="space-y-2">
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/staking-and-lending/">貸コイン（ステーキング・レンディング）</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/exchange/">国内・海外の取引所</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/tax-return/">確定申告・税金</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/tax-return/">青色申告制度・事業所得</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/accountants/">税理士の選び方</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/yearly-schedule/">年間予定表・スケジュール</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h4 class="mb-4 font-semibold text-foreground">副業レベルと目標</h4>
+				<ul class="space-y-2">
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/job-level-1/">レベル 1 毎月 +5,000 円</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/job-level-2/">レベル 2 毎月 +10,000 円</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/job-level-3/">レベル 3 毎月 +20,000 円</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/job-level-4/">レベル 4 毎月 +10 万円</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/job-level-5/">レベル 5 毎月 +30 万円</a></li>
+					<li><a class="text-sm text-muted-foreground transition-colors hover:text-accent" href="/job-level-table/">副業レベル比較表</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="border-t border-border bg-secondary/50">
+		<div class="mx-auto max-w-7xl px-4 py-8 lg:px-8">
+			<h4 class="mb-4 text-sm font-semibold text-foreground">ご注意</h4>
+			<ul class="space-y-2">
+				<li class="text-xs text-muted-foreground pl-4 -indent-3 font-mono">• 投資のご判断は自己責任にてお願いします。元本保証はありません。</li>
+				<li class="text-xs text-muted-foreground pl-4 -indent-3 font-mono">• 金融商品取引法の規定により、個別の投資判断に関するご質問・ご相談は、このサイトでの不特定な記事として回答・解説します。</li>
+				<li class="text-xs text-muted-foreground pl-4 -indent-3 font-mono">• このサイトの運営者、記事の著者は税理士、金融機関ではありません。</li>
+				<li class="text-xs text-muted-foreground pl-4 -indent-3 font-mono">• 可能な限り、正確な記述を心がけていますが、間違っている場合があります。</li>
+				<li class="text-xs text-muted-foreground pl-4 -indent-3 font-mono">• 仮想通貨・暗号資産の売買による損益、およびステーキングやレンディングの報酬の合計が年間 20 万円を超えた場合、確定申告が必要です。</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="border-t border-border">
+		<div class="mx-auto max-w-7xl px-4 py-6 lg:px-8">
+			<p class="text-center text-xs text-muted-foreground">© 2026 kashikoin.com. All rights reserved.</p>
+		</div>
+	</div>
+</footer>
+	</body>
+</html>

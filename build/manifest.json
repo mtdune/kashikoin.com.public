@@ -1,0 +1,29 @@
+{
+  "resources/css/style.css": {
+    "file": "assets/style-B6kWLMTD.css",
+    "name": "style",
+    "names": [
+      "style.css"
+    ],
+    "src": "resources/css/style.css",
+    "isEntry": true
+  },
+  "resources/js/script.js": {
+    "file": "assets/script-4Leh9qvP.js",
+    "name": "script",
+    "src": "resources/js/script.js",
+    "isEntry": true
+  },
+  "resources/js/scroll-offset.js": {
+    "file": "assets/scroll-offset-DL-ou87G.js",
+    "name": "scroll-offset",
+    "src": "resources/js/scroll-offset.js",
+    "isEntry": true
+  },
+  "resources/js/sidebar-sticky.js": {
+    "file": "assets/sidebar-sticky-C5DaJ0mz.js",
+    "name": "sidebar-sticky",
+    "src": "resources/js/sidebar-sticky.js",
+    "isEntry": true
+  }
+}
