@@ -1,11 +1,17 @@
 {
   "resources/css/style.css": {
-    "file": "assets/style-Dtij2YHG.css",
+    "file": "assets/style-DdADOHtE.css",
     "name": "style",
     "names": [
       "style.css"
     ],
     "src": "resources/css/style.css",
+    "isEntry": true
+  },
+  "resources/js/page-tts.js": {
+    "file": "assets/page-tts-DftNQkrG.js",
+    "name": "page-tts",
+    "src": "resources/js/page-tts.js",
     "isEntry": true
   },
   "resources/js/script.js": {
